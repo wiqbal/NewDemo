@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Google_Suite" parallel="methods" thread-count="10">
+	<test name="Time Zone API">
+		<packages>
+			<package name="com.google.geolocation"/>
+		</packages>
+	</test> 
+</suite> 

@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:LoanMonthlyPayment>
+         <web:LoanAmount>?</web:LoanAmount>
+         <web:InterestRate>?</web:InterestRate>
+         <web:Months>?</web:Months>
+      </web:LoanMonthlyPayment>
+   </soapenv:Body>
+</soapenv:Envelope>
